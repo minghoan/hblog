@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre{
+    margin: 24px 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(320deg,  #27818f, #91a9be);
+    border-radius: 10px;
+}
